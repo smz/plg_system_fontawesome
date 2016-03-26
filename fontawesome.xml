@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>SMZ Font Awesome</name>
+	<description>Font Awesome system plugin for Joomla</description>
+	<author>Sergio Manzi</author>
+	<authorEmail>info@smz.it</authorEmail>
+	<authorUrl>http://smz.it</authorUrl>
+	<copyright>Copyright (C) 2015 Sergio Manzi. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or (at your option) any later version.</license>
+	<version>4.5.0</version>
+	<creationDate>March 2016</creationDate>
+	<files>
+		<filename plugin="fontawesome">fontawesome.php</filename>
+	</files>
+	<media destination="plg_system_fontawesome" folder="media">
+		<folder>css</folder>
+		<folder>fonts</folder>
+	</media>
+	<scriptfile>script.php</scriptfile>
+</extension>
